@@ -1,13 +1,16 @@
 public class Main {
+
+    // Program menghitung jumlah dua bilangan
     public static void main(String[] args) {
 
-        // Program sederhana penjumlahan
+        int angkaPertama = 10;
+        int angkaKedua = 20;
 
-        int a = 10;
-        int b = 20;
+        int hasil = angkaPertama + angkaKedua;
 
-        System.out.println(a+b);
-        System.out.println(a+b);
-        System.out.println(a+b);
+        for(int i = 1; i <= 3; i++) {
+            System.out.println("Hasil penjumlahan = " + hasil);
+        }
+
     }
 }
